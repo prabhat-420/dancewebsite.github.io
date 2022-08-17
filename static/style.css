@@ -1,0 +1,167 @@
+*{margin:0px;
+  padding: 0px;  
+
+}
+#navigation{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+#navigation li a{
+ text-decoration: none;
+ padding: 10px;
+ color: white;
+}
+#navigation li a:hover{
+    background-color: rgb(13, 225, 240);
+
+}
+#navigation li{
+    list-style: none;
+    font-size: 23px;
+    padding: 2px 19px;
+    margin: 7px 2px;
+}
+#search{
+    display:inline;
+    float: right;
+    padding: auto;
+    margin-right: 1px;
+}
+#search:hover{
+    cursor: pointer;
+    background-color: rgb(15, 221, 204);
+}
+#introsection{
+ display: flex;
+ width: 100%;
+ height: 500px;
+ justify-content: center;
+ align-items: center;
+ background-color: red;
+ background: no-repeat center/100% url("/static/dance.jpg");
+ color: white;
+ flex-direction: column;
+ opacity: 0.8;
+}
+ 
+
+ #introsection div{
+    font-size: 3rem;
+    color:white;
+    font-weight: bold;
+
+ }
+
+
+#sponsor{
+     width: 100%;
+    height: 300px;  
+    background-color: rgb(211 172 177);
+
+
+}
+.container1{
+     display: flex;
+    flex-direction: row;
+      justify-content: center;  
+     
+       
+}
+.container1 div {
+    width: 25%;
+    height: 183px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    margin: 39px 40px;
+    /* position: absolute; */
+}
+.container1 div:hover{
+    background-color: aqua;
+} 
+#sponsor h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.container1 div p{
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+
+#logo img{
+    height: 55px;
+    filter: invert();
+
+
+}
+/* #logo1{
+     display: block;
+    height: 55px;
+}
+#logo1 img{
+    height: 75px;
+} */
+.container img{
+    display: inline;
+    height: 94px;
+    margin: 4px 0px;
+    padding-right: 185px;
+    padding-top: 36px;
+}
+
+#sponsorsection {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(109, 193, 219);
+   
+}
+#sponsorsection h2{
+    text-align: center;
+    font-size: 2rem;
+}
+ 
+.spon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.spon img{
+    height: 65px;
+    margin: 4px 0px;
+    padding: 10px 31px;
+}
+.spon img:hover{
+    cursor: pointer;
+    background-color: rgb(79, 167, 167);
+}
+
+#footer{
+    display: flex;
+    background-color:black;
+    height: 30px;
+    
+     justify-content: center;
+      text-align: center;
+     align-items: center; 
+     color: white;
+}
+.foot{
+    font-size: 15px;
+}

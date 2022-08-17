@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title prabhat dance academy
+    block scripts
+      script(src='/jquery.js')
+    block style
+  body
+    nav#navbar 
+        ul#navigation 
+            div#logo
+                img(src="/static/1.png")
+                | HDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") service ]
+            li #[a(href="/") Contact Info]
+            li #[a(href="/") Contact Us]
+            input(class='form-control', type='text', id='search' placeholder='search....')
+    block content   
+    footer#footer 
+        div.foot
+            p copyright @2022 PrabhatDanceAcademy.com |All right reserved

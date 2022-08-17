@@ -1,0 +1,44 @@
+extends base.pug
+
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+     style
+      include ../static/style.css
+    
+block content
+    section#introsection
+        div Dance is the hidden language of the soul 
+        div Keep Calm And Hip Hop
+      
+    section#sponsor
+        h2 Our Mission
+        div.container1
+            div.container  
+                p dance perfection
+                //- div#logo1
+                img(src="/static/2.png")
+             
+            
+            div.container
+                p dance the way you like
+                //- div#logo1
+                img(src="/static/2.png")
+               
+            div.container
+                p perfect teaching    
+                //- div#logo1
+                img(src="/static/3.png")
+               
+    section#sponsorsection 
+        h2  our sponsor
+        div.spon
+             img(src="/static/apple.png")
+             img(src="/static/facebook.png")
+             img(src="/static/instagram.png")
+             img(src="/static/microsoft.png")
+             img(src="/static/linkedin.png")
+             img(src="/static/skype.png")
+             img(src="/static/hp.png")
